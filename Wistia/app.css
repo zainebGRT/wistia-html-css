@@ -1,0 +1,246 @@
+*{box-sizing:border-box}
+body{
+  font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+   color: #363945;
+}
+.header-composants{
+    display:flex;
+    justify-content:space-between;
+    border : 2px solid rgb(239, 239, 239);
+    height:130x;
+
+}
+.container{
+  font-size: 15px;
+  color:rgb(54, 57, 72);
+  font-weight:bold;
+  display:flex;
+  flex-direction:column;
+  background:rgb(239, 239, 239);
+  width:60%;
+  height:120px;
+}
+.first-list{
+  width:500px;
+  flex:1;
+   list-style-type: none;
+   border : 2px solid rgb(239, 239, 239);
+   display:flex;
+   justify-content:space-between;
+  align-items:center;
+   background-color:rgb(239, 239, 239);
+}
+.second-list{
+  width:500px;
+  flex:1;
+   list-style-type: none;
+   border : 2px solid rgb(239, 239, 239);
+   background-color:rgb(239, 239, 239);
+   display:flex;
+   justify-content:space-between;
+  
+}
+.li-link{
+  text-decoration:none;
+  color:rgb(78, 81, 94);
+}
+
+
+.link-bottom{
+  border:1px solid rgb(239, 239, 239);
+   width:350px;
+  height:120px;
+  display:flex;
+  justify-content:center;
+  
+
+}
+.link{
+  border:1px solid rgb(239, 239, 239);
+  width:50%;
+  text-decoration:none;
+  font-size:20px;
+  font-weight:bold;
+  color:rgb(62, 169, 245);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+ 
+}
+.login{
+  border:1px solid rgb(239, 239, 239);
+  width:50%;
+   text-decoration:none;
+  font-size:20px;
+  font-weight:bold;
+  color:rgb(108, 121, 139);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+a:hover{
+  background-color:rgb(239, 239, 239);
+ 
+}
+.video-block{
+ background-image:url("https://embedwistia-a.akamaihd.net/deliveries/88219b7618551dfa6893049604d2c8b2da4dca59.jpg");
+  height:500px;
+  margin-top:-px;text-align:center;
+  font-size:30px;
+}
+span{
+  color:white;
+  font-size:30px;
+  font-weight:bold;
+}
+.paragraph{
+  float:left;
+  text-align:center;
+  padding-left:150px;
+  padding-top:100px;
+}
+.watch-video{
+  width:210px;
+  height:65px; 
+  color:black;
+  font-size: 20px;
+  border: none;
+  border-radius:5px;
+  cursor:pointer;
+}
+.wistia-services{
+  border:1px solid transparent;
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content:flex-start;
+  margin-left:-1px;
+  margin-top:-2px;
+}
+svg{
+  width:50px;
+  margin-top:40px;
+  margin-left:40px;  
+}
+.wistia-hosting{
+  border:1px solid transparent;
+  width:33.3%;
+  background-color:rgb(254, 210, 74);
+   display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  padding-left:35px
+}
+.soapbox{
+  border:1px solid transparent;
+  width:33.3%;
+  background-color:rgb(81, 194, 159);
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  padding-left:35px;
+}
+.skills{
+  border:1px solid transparent;
+  width:33.3%;
+  background-color:rgb(62, 169, 245);
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  padding-left:35px
+}
+.button-one{
+  width:180px;
+  height:60px; 
+  border:1px solid white;
+  border-radius:5px;
+  cursor:pointer;
+  background:transparent;
+  font-size:17px;
+  padding: 17px 16px;
+  color: #2A2D35;
+   float: center;
+ margin: 8px 16px 50px 8px;
+}
+.button-one:hover{
+  background-color:white;
+}
+.button-two{
+   width:180px;
+  height:60px; 
+  border:1px solid white;
+  border-radius:5px;
+  cursor:pointer;
+  background:transparent;
+  font-size:17px;
+  padding: 17px 16px;
+  color: #2A2D35;
+   float: center;
+ margin:10px 16px 8px 8px;
+}
+.button-two:hover{
+  backgroung-color:white;
+}
+.button-three{
+   width:180px;
+  height:60px; 
+  border:1px solid white;
+  border-radius:5px;
+  cursor:pointer;
+  background:transparent;
+  font-size:17px;
+  padding: 17px 16px;
+  color: #2A2D35;
+   float: center;
+ margin-top:29px;
+  margin-left:10px;
+}
+.button-three:hover{
+  backgroung-color:white;
+}
+.button-two:hover{
+  background-color:white;
+}
+.button-one:hover{
+  backgroungd-color:white;
+}
+ a{
+  color:rgb(54, 57, 69); 
+}
+.all-titles{
+    color: #fff;
+    width: 100%;
+    font-size: 23px;
+    line-height: 30px;
+    margin: 25px 0 10px;
+}
+.all-paragraph{
+  line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.wistia-help{
+    border: 1px solid transparent;
+    color:rgb(163, 174, 188);
+      padding: 0 30px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.wistia-businesses-growth{
+  border:1px solid green;
+  width:100%;
+   height:500px;
+  display:flex;
+ justify-content:space-around;
+  padding-top:80px;
+  padding-left:20px;
+  
+}
+
+.logo-test img {
+    height: 110px !important;
+}
+.first-logo{
+  margin-right:0px;
+}
